@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Acceso al sistema</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+
+  </head>
+  <body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+          <a >
+						<img src="https://verygoodtranslation.com/wp-content/uploads/2019/07/logo3-para-web.png" alt="Very Good Translation" id="logo" data-height-percentage="10" height="50"   />
+					</a>
+           <!-- <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Vendedor</a> -->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+
+        <div class="container">
+
+                    <div class="about-text align-items-center">
+                      <center>
+                        <br><br>
+                        <h3>
+                            <span class="mr-2" > Acceso al sistema</span>
+                        </h3>
+                        <br>
+                      </center>
+
+            </div>
+        </div>
+    </section>
+
+
+
+<section>
+    <center>
+          <table >
+            <tr>
+              <td>
+                <div class="small">
+                    <h4>Usuario</h4>
+              </td>
+              <td>
+                <form action="" method="get"class="small">
+                    <div class="col-lg-6 col-12">
+                      <input type="text" class="form-control" name="txt_Usuario" placeholder="Nombre Usuario" id="txt_Usuario">
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                  <br>
+                <div class="small">
+                    <h4 >Contraseña</h4>
+
+              </td>
+              <td>
+                  <br>
+                <form action="" method="get">
+                    <div class="col-lg-6 col-12">
+                      <input type="password" class="form-control" name="txt_Contra"  id="txt_Contra" size="60">
+              </td>
+            </tr>
+            <br>
+            <tr>
+              <td>
+              </td>
+
+              <td >
+                <form action="">
+                  <div class="custom-btn-group mt-4">
+                    <input  type="submit" href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link"name="btn_Entrar"value="Acceder"id="btn_Entrar" >
+                  </div>
+              </td>
+              <td>
+              </td>
+            </tr>
+          </table>
+        </center>
+        <br>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">
+                        <p class="copyright-text text-center">Copyright &copy; Very Good Translation</p>
+
+                    </div>
+
+               </div>
+          </div>
+
+     </footer>
+     <footer id="main-footer">
+
+   <div class="container">
+   <div id="footer-widgets" class="clearfix">
+   <div class="footer-widget"><div id="custom_html-44" class="widget_text fwidget et_pb_widget widget_custom_html"><div class="textwidget custom-html-widget"><!-- Código de instalación Cliengo para http://www.verygoodtranslation.com -->
+   <script type="text/javascript">(function () {
+   var ldk = document.createElement('script');
+   ldk.type = 'text/javascript';
+   ldk.async = true;
+   ldk.src = 'https://s.cliengo.com/weboptimizer/5cd0c33fe4b0a6deb12cff1b/5cd0c340e4b0a6deb12cff1e.js';
+   var s = document.getElementsByTagName('script')[0];
+   s.parentNode.insertBefore(ldk, s);
+   })();</script></div></div> <!-- end .fwidget --></div> <!-- end .footer-widget --><div class="footer-widget"></div> <!-- end .footer-widget --><div class="footer-widget"></div> <!-- end .footer-widget --><div class="footer-widget"></div> <!-- end .footer-widget -->    </div> <!-- #footer-widgets -->
+   </div>    <!-- .container -->
+
+
+       <div id="et-footer-nav">
+         <div class="container">
+                     </div>
+       </div> <!-- #et-footer-nav -->
+
+
+       <div id="footer-bottom">
+         <div class="container clearfix">
+                 </div>	<!-- .container -->
+       </div>
+     </footer> <!-- #main-footer -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Acceso al sistema</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+
+
+  </head>
+  <body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+        <!--  <a >
+						<img src="https://verygoodtranslation.com/wp-content/uploads/2019/07/logo3-para-web.png" alt="Very Good Translation" id="logo" data-height-percentage="10" height="50"   />
+					</a> -->
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Administrador</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="Vendedor">Vendedor</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="Reportes">Reportes</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="Descuento">Descuento</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Traducción">Traducción</span></a>
+                        <ul>
+                          <li><a href="#">Precio</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="Cotizaciones">Cotizaciones</span></a>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+
+        <div class="container">
+
+                    <div class="about-text align-items-center">
+                      <center>
+                        <br><br>
+                        <h3>
+                            <span class="mr-2" >Alta Vendedor</span>
+                        </h3>
+                        <br>
+                      </center>
+
+            </div>
+        </div>
+    </section>
+
+
+
+<section>
+    <center>
+          <table >
+
+          </table>
+        </center>
+        <br>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">
+                        <p class="copyright-text text-center">Copyright &copy; Very Good Translation</p>
+
+                    </div>
+
+               </div>
+          </div>
+
+     </footer>
+     <footer id="main-footer">
+
+
+
+       <div id="et-footer-nav">
+         <div class="container">
+                     </div>
+       </div> <!-- #et-footer-nav -->
+
+
+       <div id="footer-bottom">
+         <div class="container clearfix">
+                 </div>	<!-- .container -->
+       </div>
+     </footer> <!-- #main-footer -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>
