@@ -127,7 +127,7 @@
                   <br>
                 <form action="" method="get">
                     <div class="auto-style4"align="center">
-                      <input type="password" class="auto-style2" name="txt_Contra"  id="txt_Contra" width="20"size="40">
+                      <input type="password" class="auto-style2" name="txt_Contra" id="miid" placeholder="Contraseña" id="txt_Contra" width="20"size="40">
               </td>
             </tr>
             <br>
@@ -149,6 +149,7 @@
         <br>
       </div>
     </section>
+
 
     <!-- FOOTER -->
      <footer class="footer py-5">
