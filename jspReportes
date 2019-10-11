@@ -74,20 +74,15 @@
 
   <!-- TITULO -->
 
-  <div class="container">
-
-    <div class="about-text align-items-center">
-      <center>
-        <br><br>
-        <h3>
-          <span class="mr-2">Reportes</span>
-        </h3>
-        <br>
-      </center>
-
-    </div>
+  <div style="text-align: center; background: rgb(236,239,001); border-radius: 0 10px 10px 0; color: #fff;  width: 95%; height: 10%;">
+    <center style="color: #000">
+      <br><br>
+      <h3 style="color: #000">
+        Reportes
+      </h3>
+      <br>
+    </center>
   </div>
-  </section>
 
 
   <!-- CONTENIDO -->
@@ -109,7 +104,7 @@
           <td>
             <br><br><br>
           <td align="right">
-            <input type="submit" class="btn custom-btn custom-btn-bg custom-btn-link" name="btn_Entrar" value="Seleccionar" id="btn_Entrar">
+            <input type="submit" class="btn custom-btn" name="btn_seleccionar" value="Seleccionar" id="btn_seleccionar">
           </td>
         </p>
       </tr>
@@ -136,7 +131,6 @@
       <tr class="texto">
         <td></td>
         <td>Tipo de reporte: <label for="TipoReporte">----------------</label></td>
-        <td>Reporte Número:<label for="NumReporte">----------</label></td>
       </tr>
     </table>
     <hr align="left" size="4" width="100%" color="black">
@@ -155,7 +149,7 @@
           </tr>
           <tr>
             <td></td>
-            <td>Total <label for="Total">----------------</label></td>
+            <td>Total <label for="lblTotal">----------------</label></td>
           </tr>
         </table>
   </div>
@@ -165,7 +159,7 @@
     <center>
    <table>
      <tr align="right">
-       <td align="right">  <input  type="submit" href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link"name="btn_Entrar"value="Generar PDF"id="btn_Entrar" style="width: 172px" ></td>
+       <td align="right">  <input  type="submit" href="#contact" class="btn custom-btn "name="btn_GenerarPDF"value="Generar PDF"id="btn_GenerarPDF" style="width: 172px" ></td>
      </tr>
    </table>
  </center>

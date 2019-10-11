@@ -24,7 +24,8 @@
       padding: 20px;
     }
     .texto {
-      background-color: #bcbcbc;
+      background-color: #ffffff;
+      font-size: 60;
       color: black;
       margin: 20px;
       padding: 20px;
@@ -74,20 +75,15 @@
 
   <!-- TITULO -->
 
-  <div class="container">
-
-    <div class="about-text align-items-center">
-      <center>
-        <br><br>
-        <h3>
-          <span class="mr-2">Cotizaciones</span>
-        </h3>
-        <br>
-      </center>
-
-    </div>
+  <div style="text-align: center; background: rgb(236,239,001); border-radius: 0 10px 10px 0; color: #fff;  width: 95%; height: 10%;">
+    <center style="color: #000">
+      <br><br>
+      <h3 style="color: #000">
+        Cotizaciones
+      </h3>
+      <br>
+    </center>
   </div>
-  </section>
 
 
   <!-- CONTENIDO -->
@@ -140,7 +136,7 @@
             </td>
             <td>  </td>
           <td align="right">
-            <input type="submit" class="btn custom-btn custom-btn-bg custom-btn-link" name="btn_Entrar" value="Aceptar" id="btn_Entrar">
+            <input type="submit" class="btn custom-btn " name="btn_Aceptar" value="Aceptar" id="btn_Entrar">
           </td>
         </p>
       </tr>

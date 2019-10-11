@@ -125,7 +125,7 @@
           Idioma:
         </td>
         <td>
-          <select class="small-text">
+          <select class="small-text" value="cmbIdiomas">
             <option value="Ingles">Inglés</option>
             <option value="Español">Español</option>
             <option value="Chino">Chino</option>
@@ -150,7 +150,7 @@
            Idioma:
          </td>
          <td>
-           <select class="small-text">
+           <select class="small-text"value="cmbIdiomas2">
              <option value="Ingles">Inglés</option>
              <option value="Español">Español</option>
              <option value="Chino">Chino</option>
@@ -158,8 +158,8 @@
            </select>
          </td>
          <td>
-           &nbsp&nbsp Valor Idioma:
-            <input type="text" name="txtDescuento" id="" value="">
+           &nbsp&nbsp Factor Idioma:
+            <input type="text" name="txtFactor" id="txtFactor" value="">
          </td>
        </tr>
 
@@ -167,7 +167,7 @@
          <td></td>
          <td></td>
          <td align="right">
-           <input type="submit" class="btn custom-btn custom-btn-bg custom-btn-link" name="btn_Entrar" value="Modificar" id="btn_Entrar">
+           <input type="submit" class="btn custom-btn " name="btn_ModFactor" value="Modificar" id="btn_Entrar">
          </td>
        </tr>
      </table>
@@ -181,7 +181,7 @@
      <tr>
        <td>
          &nbsp&nbsp Valor Idioma:
-          <input type="text" name="txtDescuento" id="" value="">
+          <input type="text" name="txtPrecio" id="txtPrecio" value="">
        </td>
      </tr>
 
@@ -189,7 +189,7 @@
        <td></td>
        <td></td>
        <td align="right">
-         <input type="submit" class="btn custom-btn custom-btn-bg custom-btn-link" name="btn_Entrar" value="Modificar" id="btn_Entrar">
+         <input type="submit" class="btn custom-btn " name="btn_ModValor" value="Modificar" id="btn_Entrar">
        </td>
      </tr>
    </table>
