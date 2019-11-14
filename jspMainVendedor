@@ -9,12 +9,9 @@
     <title>Vendedor</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/unicons.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
     <!-- MAIN STYLE -->
-    <link rel="stylesheet" href="css/tooplate-style.css">
+    <link rel="stylesheet" href="css/Estilo.css">
   </head>
   <body>
 
@@ -61,18 +58,14 @@
 
     <!-- ABOUT -->
 
-        <div class="container">
-
-                    <div class="about-text align-items-center">
-                      <center>
-                        <br><br>
-                        <h3>
-                            <span class="mr-2" >Clientes registrados</span>
-                        </h3>
-                        <br>
-                      </center>
-
-            </div>
+    <div class="fondo-negro">
+      <center >
+        <br><br>
+        <div class="titulo">
+         Clientes registrados        </div>
+        <br>
+      </center>
+    </div>
         </div>
     </section>
 
@@ -88,34 +81,22 @@
       </div>
     </section>
 
-    <!-- FOOTER -->
-     <footer class="footer py-5">
-          <div class="container">
-               <div class="row">
+    <footer class="pie-pagina">
+      <div class="container">
+        <div class="row">
 
-                    <div class="col-lg-12 col-12">
-                        <p class="copyright-text text-center">Copyright &copy; Very Good Translation</p>
+          <div class="col-lg-12 col-12" align="center">
+            <p style="color:#ffffff;">Copyright &copy; Very Good Translation</p>
 
-                    </div>
-
-               </div>
           </div>
 
-     </footer>
-     <footer id="main-footer">
+        </div>
+      </div>
 
-   <div class="container">
-   <div id="footer-widgets" class="clearfix">
-   <div class="footer-widget"><div id="custom_html-44" class="widget_text fwidget et_pb_widget widget_custom_html"><div class="textwidget custom-html-widget"><!-- Código de instalación Cliengo para http://www.verygoodtranslation.com -->
-   <script type="text/javascript">(function () {
-   var ldk = document.createElement('script');
-   ldk.type = 'text/javascript';
-   ldk.async = true;
-   ldk.src = 'https://s.cliengo.com/weboptimizer/5cd0c33fe4b0a6deb12cff1b/5cd0c340e4b0a6deb12cff1e.js';
-   var s = document.getElementsByTagName('script')[0];
-   s.parentNode.insertBefore(ldk, s);
-   })();</script></div></div> <!-- end .fwidget --></div> <!-- end .footer-widget --><div class="footer-widget"></div> <!-- end .footer-widget --><div class="footer-widget"></div> <!-- end .footer-widget --><div class="footer-widget"></div> <!-- end .footer-widget -->    </div> <!-- #footer-widgets -->
-   </div>    <!-- .container -->
+    </footer>
+    <footer id="main-footer">
+
+
 
 
        <div id="et-footer-nav">

@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/unicons.css">
 
   <!-- MAIN STYLE -->
-  <link rel="stylesheet" href="css/tooplate-style.css">
+  <link rel="stylesheet" href="css/Estilo.css">
   <link rel="stylesheet" href="/css/PruebaCSS.css">
 
 </head>
@@ -33,9 +33,6 @@
             <a href="#about" class="nav-link"><span data-hover="Vendedor">Vendedor</span></a>
           </li>
           <li class="nav-item">
-            <a href="#about" class="nav-link"><span data-hover="Reportes">Reportes</span></a>
-          </li>
-          <li class="nav-item">
             <a href="#about" class="nav-link"><span data-hover="Descuento">Descuento</span></a>
           </li>
           <li class="nav-item">
@@ -46,6 +43,9 @@
           </li>
           <li class="nav-item">
             <a href="#about" class="nav-link"><span data-hover="Cotizaciones">Cotizaciones</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link"><span data-hover="Reportes">Reportes</span></a>
           </li>
         </ul>
       </div>
@@ -59,12 +59,12 @@
 
   <!-- ABOUT -->
 
-  <div style="text-align: center; background: rgb(236,239,001); border-radius: 0 10px 10px 0; color: #fff;  width: 95%; height: 10%;">
-    <center style="color: #000">
+  <div class="fondo-negro">
+    <center >
       <br><br>
-      <h3 style="color: #000">
-        Registro de vendedores
-      </h3>
+      <div class="titulo">
+        Registro de vendedores 
+      </div>
       <br>
     </center>
   </div>
@@ -86,11 +86,10 @@ Correo
       <table>
         <tr>
           <td style="text-align: right">
-            <div class="small">
-              <h4>Nombre:</h4>
+            <div >
+              <h4 class="texto-Centro">Nombre:</h4>
           </td>
           <td>
-            <form action="" method="get" class="small">
               <div class="col-lg-6">
                 <input type="text" class="form-control" name="txt_Nombre" placeholder="Nombre del empleado" id="txt_Nombre" style="min-width: 240px; width:240;">
           </td>
@@ -99,12 +98,11 @@ Correo
         <tr>
           <td style="text-align: right">
             <br>
-            <div class="small">
-              <h4>Apellidos:</h4>
+            <div class="texto-Centro">
+              <h4 class="texto-Centro">Apellidos:</h4>
           </td>
           <td>
             <br>
-            <form action="" method="get" class="small">
               <div class="col-lg-6">
                 <input type="text" class="form-control" name="txt_Apellidos" placeholder="Apellidos del empleado" id="txt_Apellidos" style="min-width: 240px; width:240;">
           </td>
@@ -113,12 +111,11 @@ Correo
         <tr>
           <td style="text-align: right">
             <br>
-            <div class="small">
-              <h4>Usuario:</h4>
+            <div >
+              <h4 class="texto-Centro">Usuario:</h4>
           </td>
           <td>
             <br>
-            <form action="" method="get" class="small">
               <div class="col-lg-6">
                 <input type="text" class="form-control" name="txt_Usuario" placeholder="Nombre de usuario" id="txt_Usuario" style="min-width: 240px; width:240;">
           </td>
@@ -127,8 +124,8 @@ Correo
         <tr>
           <td style="text-align: right">
             <br>
-            <div class="small">
-              <h4>Sexo:</h4>
+            <div >
+              <h4 class="texto-Centro">Sexo:</h4>
           </td>
           <td>
             <br>
@@ -146,12 +143,11 @@ Correo
         <tr>
           <td style="text-align: right">
             <br>
-            <div class="small">
-              <h4>Teléfono:</h4>
+            <div >
+              <h4 class="texto-Centro">Teléfono:</h4>
           </td>
           <td>
             <br>
-            <form action="" method="get" class="small">
               <div class="col-lg-6">
                 <input type="text" class="form-control" name="txt_Tel" placeholder="Número telefónico" id="txt_Tel" style="min-width: 240px; width:240;">
           </td>
@@ -160,8 +156,8 @@ Correo
         <tr>
           <td style="text-align: right">
             <br>
-            <div class="small">
-              <h4>Correo:
+            <div >
+              <h4 class="texto-Centro">Correo:
           </td>
           <td>
             <br>
@@ -175,11 +171,10 @@ Correo
           <td style="text-align: right">
             <br>
             <div class="small">
-              <h4>Dirección:</h4>
+              <h4 class="texto-Centro">Dirección:</h4>
           </td>
           <td>
             <br>
-            <form action="" method="get" class="small">
               <div class="col-lg-6">
                 <input type="text" class="form-control" name="txt_Dir" placeholder="Dirección" id="txt_Dir" style="min-width: 240px; width:240;">
           </td>
@@ -188,8 +183,8 @@ Correo
         <tr>
           <td style="text-align: right">
             <br>
-            <div class="small">
-              <h4>Fecha de Nacimiento:</h4>
+            <div >
+              <h4 class="texto-Centro">Fecha de Nacimiento:</h4>
           </td>
           <td>
             <br>
@@ -206,14 +201,15 @@ Correo
         <tr>
           <td></td>
           <td>
-            <form action="">
-              <div class="custom-btn-group mt-4">
-                <input type="submit" href="#contact" class="btn custom-btn" name="btn_Registrar" value="Registrar" id="btn_Registrar" style="min-width: 240px; width:240;">
+              <div >
+                <input type="submit" href="#contact" class="btn " name="btn_Registrar" value="Registrar" id="btn_Registrar" style="min-width: 240px; width:240;">
               </div>
           </td>
           <td>
           </td>
         </tr>
+
+
       </table>
     </center>
     <br>
@@ -221,12 +217,12 @@ Correo
   </section>
 
   <!-- FOOTER -->
-  <footer class="footer py-5">
+  <footer class="pie-pagina">
     <div class="container">
       <div class="row">
 
-        <div class="col-lg-12 col-12">
-          <p class="copyright-text text-center">Copyright &copy; Very Good Translation</p>
+        <div class="col-lg-12 col-12" align="center">
+          <p style="color:#ffffff;">Copyright &copy; Very Good Translation</p>
 
         </div>
 

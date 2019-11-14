@@ -10,12 +10,9 @@
   <title>Precio</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/unicons.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
   <!-- MAIN STYLE -->
-  <link rel="stylesheet" href="css/tooplate-style.css">
+  <link rel="stylesheet" href="css/Estilo.css">
   <style type="text/css">
     .reporte {
       background-color: #bcbcbc;
@@ -84,27 +81,26 @@
 
   <!-- TITULO -->
 
-  <div class="container">
-
-    <div class="about-text align-items-center">
-      <center>
-        <br><br>
-        <h3>
-          <span class="mr-2">Precio</span>
-        </h3>
-        <br>
-      </center>
-
-    </div>
+  <div class="fondo-negro">
+    <center >
+      <br><br>
+      <div class="titulo">
+        Precio
+      </div>
+      <br>
+    </center>
   </div>
 
 
   <!-- CONTENIDO -->
   <center>
     <div class="texto">
-    <table >
-    <tr align="center" class="textoCentrado">
+    <table class="texto-Centro">
+    <tr align="center" >
+      <td>
+
       Precio actual
+    </tD>
     </tr>
     <tr>
       <td>
@@ -199,21 +195,21 @@
   <br>
 
 
-  <!-- FOOTER -->
-  <footer class="footer py-5">
-    <div class="container">
-      <div class="row">
 
-        <div class="col-lg-12 col-12">
-          <p class="copyright-text text-center">Copyright &copy; Very Good Translation</p>
+      <footer class="pie-pagina">
+        <div class="container">
+          <div class="row">
 
+            <div class="col-lg-12 col-12" align="center">
+              <p style="color:#ffffff;">Copyright &copy; Very Good Translation</p>
+
+            </div>
+
+          </div>
         </div>
 
-      </div>
-    </div>
-
-  </footer>
-  <footer id="main-footer">
+      </footer>
+      <footer id="main-footer">
 
 
 

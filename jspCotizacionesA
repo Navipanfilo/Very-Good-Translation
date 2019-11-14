@@ -10,12 +10,8 @@
   <title>Cotizaciones</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/unicons.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
   <!-- MAIN STYLE -->
-  <link rel="stylesheet" href="css/tooplate-style.css">
+  <link rel="stylesheet" href="css/Estilo.css">
   <style type="text/css">
     .reporte {
       background-color: #bcbcbc;
@@ -49,9 +45,6 @@
             <a href="#about" class="nav-link"><span data-hover="Vendedor">Vendedor</span></a>
           </li>
           <li class="nav-item">
-            <a href="#about" class="nav-link"><span data-hover="Reportes">Reportes</span></a>
-          </li>
-          <li class="nav-item">
             <a href="#about" class="nav-link"><span data-hover="Descuento">Descuento</span></a>
           </li>
           <li class="nav-item">
@@ -62,6 +55,9 @@
           </li>
           <li class="nav-item">
             <a href="#about" class="nav-link"><span data-hover="Cotizaciones">Cotizaciones</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link"><span data-hover="Reportes">Reportes</span></a>
           </li>
         </ul>
       </div>
@@ -75,12 +71,12 @@
 
   <!-- TITULO -->
 
-  <div style="text-align: center; background: rgb(236,239,001); border-radius: 0 10px 10px 0; color: #fff;  width: 95%; height: 10%;">
-    <center style="color: #000">
+  <div class="fondo-negro">
+    <center >
       <br><br>
-      <h3 style="color: #000">
+      <div class="titulo">
         Cotizaciones
-      </h3>
+      </div>
       <br>
     </center>
   </div>
@@ -90,14 +86,14 @@
   <center>
     <table>
       <tr align="center">
-      &nbsp&nbsp  <td class="full-text">Cotización:</td>
+      &nbsp&nbsp  <td class="texto-Centro">Cotización:</td>
       <td>  <label for="lblID"> ------------------</label></td>
       </tr>
 
       <tr>
 
         <br>
-        <td class="full-text">
+        <td class="texto-Centro">
           Tipo de Cotizacion: &nbsp&nbsp
         <td>
           <select class="small-text">
@@ -112,7 +108,7 @@
       <br>
       <tr>
         <tr>
-          <td class="full-text">
+          <td class="texto-Centro">
             Descuento: &nbsp&nbsp
           <td>
             <select class="small-text">
@@ -126,8 +122,8 @@
         </tr>
         <tr>
           <td></td>
-          <td> <div class="texto" align="center">Total</div> </td>
-          <td> <input type="text" name="txtTotal" id="" value="" readonly="true"> </td>
+          <td> <div class="texto-Centro" align="center">Total</div> </td>
+          <td> <label for="" id="lblTotal">--</label> </td>
         </tr>
         <tr>
         <p>
@@ -147,12 +143,13 @@
 
 
   <!-- FOOTER -->
-  <footer class="footer py-5">
+  <!-- FOOTER -->
+  <footer class="pie-pagina">
     <div class="container">
       <div class="row">
 
-        <div class="col-lg-12 col-12">
-          <p class="copyright-text text-center">Copyright &copy; Very Good Translation</p>
+        <div class="col-lg-12 col-12" align="center">
+          <p style="color:#ffffff;">Copyright &copy; Very Good Translation</p>
 
         </div>
 

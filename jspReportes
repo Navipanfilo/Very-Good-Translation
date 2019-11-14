@@ -10,12 +10,9 @@
   <title>Acceso al sistema</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/unicons.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
   <!-- MAIN STYLE -->
-  <link rel="stylesheet" href="css/tooplate-style.css">
+  <link rel="stylesheet" href="css/Estilo.css">
   <style type="text/css">
     .reporte {
       background-color: #efefef;
@@ -74,12 +71,12 @@
 
   <!-- TITULO -->
 
-  <div style="text-align: center; background: rgb(236,239,001); border-radius: 0 10px 10px 0; color: #fff;  width: 95%; height: 10%;">
-    <center style="color: #000">
+  <div class="fondo-negro">
+    <center >
       <br><br>
-      <h3 style="color: #000">
+      <div class="titulo">
         Reportes
-      </h3>
+      </div>
       <br>
     </center>
   </div>
@@ -94,8 +91,18 @@
         <td>
           <select class="small-text">
             <option value="clientesRegistradps">Clientes Registrados</option>
-            <option value="Traducciones">Traducciones </option>
+            <option value="Traducciones">Traducciones Efectuadas </option>
             <option value="Ganancias">Ganancias</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td >
+          Tiempo: &nbsp&nbsp
+        <td>
+          <select class="small-text">
+            <option value="clientesRegistradps">Mes actual</option>
+            <option value="Traducciones">Año</option>
           </select>
         </td>
       </tr>
@@ -165,22 +172,23 @@
  </center>
    </div>
 
-  <!-- FOOTER -->
-  <footer class="footer py-5">
-    <div class="container">
-      <div class="row">
 
-        <div class="col-lg-12 col-12">
-          <p class="copyright-text text-center">Copyright &copy; Very Good Translation</p>
+       <footer class="pie-pagina">
+         <div class="container">
+           <div class="row">
 
-        </div>
+             <div class="col-lg-12 col-12" align="center">
+               <p style="color:#ffffff;">Copyright &copy; Very Good Translation</p>
 
-      </div>
-    </div>
+             </div>
 
-  </footer>
-  <footer id="main-footer">
+           </div>
+         </div>
 
+       </footer>
+       <footer id="main-footer">
+
+   <footer id="main-footer">
 
 
     <div id="et-footer-nav">
