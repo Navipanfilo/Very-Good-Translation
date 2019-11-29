@@ -63,7 +63,7 @@
     <center >
       <br><br>
       <div class="titulo">
-        Registro de vendedores 
+        Registro de vendedores
       </div>
       <br>
     </center>
@@ -131,7 +131,7 @@ Correo
             <br>
             <form action="" method="get" class="small">
               <div class="col-lg-6" style="min-width: 270px; width:270;">
-                <select class="form-control" style="color:#6b6b6b" name="cmbSexo" style="min-width: 240px; width:240 !important;">
+                <select class="form-control" style="color:#6b6b6b" name="cmb_Sexo" style="min-width: 240px; width:240 !important;">
                   <option>Elige una opción</option>
                   <option>Masculino</option>
                   <option>Femenino</option>

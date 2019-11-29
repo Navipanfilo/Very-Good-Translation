@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Vendedor</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/Estilo.css">
+  </head>
+  <body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+          <!--<a >
+						<img src="https://verygoodtranslation.com/wp-content/uploads/2019/07/logo3-para-web.png" alt="Very Good Translation" id="logo" data-height-percentage="10" height="50"   />
+					</a>-->
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Vendedor</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="Clientes">Clientes</span></a>
+                        <ul>
+                          <li><a href="#">Prospectos</a></li>
+                          <li><a href="#">Actuales</a></li>
+                          <li><a href="#">Estatus</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Correo">Correo</span></a>
+                        <ul>
+                          <li><a href="#">Envío</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Cotizaciones">Cotizaciones</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+
+    <div class="fondo-negro">
+      <center >
+        <br><br>
+        <div class="titulo">
+          Prospectos      </div>
+        <br>
+      </center>
+    </div>
+        </div>
+    </section>
+<body>
+<section>
+  <br>
+  <center>
+  <table >
+  <tr class="encabezadoTabla">
+      <td>
+        <h4 class="texto-tabla">&nbsp;&nbsp; Nombre&nbsp;&nbsp;&nbsp;</h4>
+      </td>
+      <td>
+        <h4 class="texto-tabla">&nbsp;&nbsp; Correo &nbsp;&nbsp;&nbsp;</h4>
+      </td><td>
+        <h4 class="texto-tabla">&nbsp;&nbsp; Teléfono &nbsp;&nbsp;&nbsp;</h4>
+      </td><td>
+        <h4 class="texto-tabla">&nbsp;&nbsp; Cambiar Estatus &nbsp;&nbsp;&nbsp;</h4>
+      </td>
+      </tr>
+      <tr>
+        <!-- obtener un result set con los datos de los clientes prospectos  -->
+        </tr>
+      </table>
+      </center>
+</section>
+</body>
+<br>
+<br>
+
+
+    <footer class="pie-pagina" style="position:absolute;">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-12 col-12" align="center">
+            <p style="color:#ffffff;">Copyright &copy; Very Good Translation</p>
+
+          </div>
+
+        </div>
+      </div>
+
+    </footer>
+    <footer id="main-footer">
+
+
+
+
+       <div id="et-footer-nav">
+         <div class="container">
+                     </div>
+       </div> <!-- #et-footer-nav -->
+
+
+       <div id="footer-bottom">
+         <div class="container clearfix">
+                 </div>	<!-- .container -->
+       </div>
+     </footer> <!-- #main-footer -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Vendedor</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- MAIN STYLE -->
+  <link rel="stylesheet" href="css/Estilo.css">
+</head>
+
+<body>
+
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-sm navbar-light">
+    <div class="container">
+      <!--<a >
+						<img src="https://verygoodtranslation.com/wp-content/uploads/2019/07/logo3-para-web.png" alt="Very Good Translation" id="logo" data-height-percentage="10" height="50"   />
+					</a>-->
+      <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Vendedor</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a href="#about" class="nav-link"><span data-hover="Clientes">Clientes</span></a>
+            <ul>
+              <li><a href="#">Prospectos</a></li>
+              <li><a href="#">Actuales</a></li>
+              <li><a href="#">Estatus</a></li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="#project" class="nav-link"><span data-hover="Correo">Correo</span></a>
+            <ul>
+              <li><a href="#">Envío</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#resume" class="nav-link"><span data-hover="Cotizaciones">Cotizaciones</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ABOUT -->
+
+  <div class="fondo-negro">
+    <center>
+      <br><br>
+      <div class="titulo">
+        Registro traducción </div>
+      <br>
+    </center>
+  </div>
+  </div>
+  </section>
+
+
+  <br>
+  <section>
+    <div id="divRegistroCliente">
+      <center>
+        <div class="texto-tabla" align="center">
+          Datos Cliente
+        </div>
+        <br>
+      </center>
+        <center>
+          <table>
+            <tr>
+              <td class="texto-Centro" align="right">
+                Nombre:&nbsp;&nbsp;
+              </td>
+              <td>
+                <div>
+                  <input type="text" class="form-control" name="txt_Nombre" id="txt_Nombre" style="min-width: 240px; width:240;">
+              </td>
+              <td class="texto-Centro" style="text-align: left">
+                &nbsp;&nbsp; Apellidos:&nbsp;&nbsp;
+              </td>
+              <td>
+                <div>
+                  <input type="text" class="form-control" name="txt_Apellido" id="txt_Apellido" style="min-width: 240px; width:240;">
+              </td>
+
+            </tr>
+            <tr class="espacio"></tr>
+            <tr>
+              <td class="texto-Centro" align="right">
+                Teléfono:&nbsp;&nbsp;
+              </td>
+              <td>
+                <div>
+                  <input type="text" class="form-control" name="txt_Telefono" id="txt_Telefono" style="min-width: 240px; width:240;">
+              </td>
+              <td class="texto-Centro" style="text-align: left">
+                &nbsp;&nbsp; Tipo de cliente:&nbsp;&nbsp;
+              </td>
+              <td>
+                <select class="form-control" id="cmb_Cliente" style="color:#6b6b6b" name="cmb_Sexo" style="min-width: 240px; width:240;">
+                  <option>Elige una opción</option>
+                  <option>Masculino</option>
+                  <option>Femenino</option>
+                  <option>Otro</option>
+                </select>
+              </td>
+            </tr>
+            <tr class="espacio"></tr>
+            <tr>
+              <td class="texto-Centro " align="right">
+                Correo electrónico:
+              </td>
+              <td colspan="2">
+                <input type="email" class="form-control" name="txt_Email" id="txt_Email" style="min-width: 240px; width:240;">
+              </td>
+              <td align="right">
+                <input type="submit" class="btn" name="btn_Registrar" value="Registrar" id="btn_Registrar" style="width: 172px">
+              </td>
+            </tr>
+          </table>
+        </center>
+        <br>
+    </div>
+  </section>
+  <section>
+    <div>
+      <center>
+        <hr>
+      </center>
+    </div>
+    <div class="columna colorColumna">
+      <h5 align="center">Idioma</h5>
+      <div>
+        <table>
+          <tr>
+            <td>
+              <h4 style="margin-left: 50%;align:left;" class="texto-Centro "> Origen:</h4>
+            </td>
+            <td>
+            <td>
+              <select class="form-control" style="color:#6b6b6b;margin-left: 17%;" name="cmb_IdiomaOrigen" id="cmb_IdiomaOrigen" style="width:240;">
+                <option>Elige una opción</option>
+                <option value="Ingles">Inglés</option>
+                <option value="Español">Español</option>
+                <option value="Chino">Chino</option>
+                <option value="Japonés">Japonés</option>
+              </select>
+            </td>
+            </td>
+          </tr>
+          <tr class="espacio"></tr>
+          <tr>
+            <td>
+              <h4 style="margin-left: 45%; align:left;" class="texto-Centro"> Destino:</h4>
+            </td>
+            <td>
+            <td>
+              <select class="form-control" style="color:#6b6b6b;margin-left: 17%;" name="cmb_IdiomaDestino" id="cmb_IdiomaDestino"style="width:240;">
+                <option>Elige una opción</option>
+                <option value="Ingles">Inglés</option>
+                <option value="Español">Español</option>
+                <option value="Chino">Chino</option>
+                <option value="Japonés">Japonés</option>
+              </select>
+            </td>
+            </td>
+          </tr>
+          <tr class="espacio"></tr>
+          <tr>
+            <td>
+              <h4 style="margin-left: 30%; align:left;" class="texto-Centro"> Traductor:</h4>
+            </td>
+            <td>
+            <td>
+              <select class="form-control" style="color:#6b6b6b;margin-left: 17%;"  name="cmb_Traductor" id="cmb_Traductor" style="width:240;">
+                <option>Elige una opción</option>
+                <!-- este se tiene que llenar de bd-->
+              </select>
+            </td>
+            </td>
+          </tr>
+          <tr class="espacio"></tr>
+          <tr>
+            <td>
+              <h4 style="margin-left: 30%; align:left;" class="texto-Centro">Tipo Traducción:</h4>
+            </td>
+            <td>
+            <td>
+              <select class="form-control" style="color:#6b6b6b;margin-left: 17%;"  name="cmb_TipoTraducion" id="cmb_TipoTraducion"style="width:240;">
+                <option>Elige una opción</option>
+
+              </select>
+            </td>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    </div>
+
+    <div class="columna ">
+      <h5 align="center">Documento</h5>
+      <table>
+        <tr>
+          <td>
+            <h4 style="margin-left: 10%; align:left;" class="texto-Centro">Ubicación:</h4>
+          </td>
+          <td>
+            <input type="file" name="fluArchivo" id="fluArchivo" style="size:20px;margin-left: 5%;" class="btnFile">
+          </td>
+        </tr>
+        <tr class="espacio"></tr>
+        <tr>
+          <td>
+            <h4 style="margin-left: 20%; align:left;" class="texto-Centro"> Ruta:</h4>
+          </td>
+          <td>
+            <label for="" id=lbl_Ruta>----</label>
+          </td>
+        </tr>
+        <tr class="espacio"></tr>
+        <tr>
+          <td>
+            <h4 style="margin-left: 10%; align:left;" class="texto-Centro">#Palabras:</h4>
+          </td>
+          <td>
+            <input type="number" class="form-control" min="10" name="txt_CantidadPalabras" id="txt_CantidadPalabras" style="width:100px;margin-left: 5%;">
+          </td>
+        </tr>
+        <tr class="espacio"></tr>
+        <tr>
+          <tr>
+            <td>
+              <h4 style=" size:20px;align:left;" class="texto-Centro">Fecha de entrega:</h4>
+            </td>
+            <td>
+              <input type="date" class="form-control" name="txt_FechaEntrega" id="txt_FechaEntrega" style="margin-left: 5%;">
+            </td>
+          </tr>
+        </tr>
+        <tr>
+
+        </tr>
+      </table>
+    </div>
+
+    </div>
+    </div>
+  </section>
+  <section>
+    <div>
+      <table>
+        <tr class="espacioDiv">
+        </tr>
+      </table>
+    </div>
+    <center>
+      <hr>
+    </center>
+    <div>
+      <center>
+        <div class="texto-tabla" align="center">
+          Desgloze
+        </div>
+        <table >
+          <tr>
+            <td class="colorColumna">
+            <h4 class="texto-Centro">Descuento</h4>
+            </td>
+            <td>
+                <h4><label style="margin-top:8px;padding-left:10px;"class="texto-Centro" for="" id="lbl_Subtotal">$30</label></h4>
+            </td>
+          </tr>
+          <tr>
+            <td class="colorColumna">
+            <h4 class="texto-Centro">Subtotal</h4>
+            </td>
+            <td>
+                <h4><label style="margin-top:8px;padding-left:10px;"class="texto-Centro" for="" id="lbl_Subtotal">$30</label></h4>
+            </td>
+          </tr>
+          <tr>
+            <td class="colorColumna">
+            <h4 class="texto-Centro">Iva</h4>
+            </td>
+            <td>
+                <h4><label style="margin-top:8px;padding-left:10px;"class="texto-Centro" for="" id="lbl_Subtotal">$30</label></h4>
+            </td>
+          </tr>
+          <tr>
+            <td class="colorColumna">
+            <h4 class="texto-Centro">Total Traducción</h4>
+            </td>
+            <td>
+                <h4><label style="margin-top:8px;padding-left:10px;"class="texto-Centro" for="" id="lbl_Subtotal">$30</label></h4>
+            </td>
+          </tr>
+          <tr class="espacio"></tr>
+          <tr>
+            <td>
+                <input type="submit" class="btn" name="btn_Registrar" value="Confirmar" id="btn_Confirmar" style="width: 172px">
+            </td>
+          </tr>
+        </table>
+
+      </center>
+    </div>
+    <br>
+  </section>
+
+  <footer class="pie-pagina">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-12 col-12" align="center">
+          <p style="color:#ffffff;">Copyright &copy; Very Good Translation</p>
+
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+  <footer id="main-footer">
+
+
+
+
+    <div id="et-footer-nav">
+      <div class="container">
+      </div>
+    </div> <!-- #et-footer-nav -->
+
+
+    <div id="footer-bottom">
+      <div class="container clearfix">
+      </div> <!-- .container -->
+    </div>
+  </footer> <!-- #main-footer -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/Headroom.js"></script>
+  <script src="js/jQuery.headroom.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>

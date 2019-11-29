@@ -9,11 +9,9 @@
     <title>Acceso al sistema</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!--<link rel="stylesheet" href="css/unicons.css">-->
     <link rel="stylesheet" href="css/Estilo.css">
 
-    <!-- MAIN STYLE -->
-    <link rel="stylesheet" href="css/tooplate-style.css">
+  
 
       <style type="text/css">
                 #miid::placeholder {
